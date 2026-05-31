@@ -41,6 +41,9 @@
 		"zod": "^4.2.1",
 		"zustand": "^5.0.9"
 	},
+	"pnpm": {
+		"onlyBuiltDependencies": ["@swc/core", "bufferutil", "esbuild", "keccak", "utf-8-validate"]
+	},
 	"devDependencies": {
 		"@eslint/js": "^9.30.1",
 		"@typechain/ethers-v6": "^0.5.1",
